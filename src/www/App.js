@@ -1,51 +1,26 @@
-import React, { Component } from 'react'
-import logos from './logos.svg'
-import './App.css'
+import React from 'react';
+import logo from './logo.svg';
+import './App.css';
 
-class App extends Component {
-  state = {
-    count: 'loading...'
-  }
-
-  componentDidMount = async () => {
-    const { count } = await window.fetch(`/api/count`).then(res => res.json())
-    this.setState({ count })
-  }
-
-  increment = async () => {
-    const { count } = await window
-      .fetch(`/api/count/increment`, { method: 'POST' })
-      .then(res => res.json())
-    this.setState({ count })
-  }
-
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logos} className="App-logo" alt="logo" />
-          <p>
-            {'Learn '}
-            <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-              React
-            </a>
-            {', '}
-            <a href="https://expressjs.com" target="_blank" rel="noopener noreferrer">
-              Express
-            </a>
-            {', and '}
-            <a href="https://kubernetes.io" target="_blank" rel="noopener noreferrer">
-              Kubernetes
-            </a>
-          </p>
-          <p>
-                this was deployed on mobile with the help of github action and was deployed on surge
-          </p>
-          <p>
-        </header>
-      </div>
-    )
-  }
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          This site was deployed on mobile with github actions
+        </a>
+      </header>
+    </div>
+  );
 }
 
-export default App
+export default App;
