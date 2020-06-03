@@ -39,7 +39,7 @@ class App extends Component {
             </a>
           </p>
           <p>
-            Modify <code>src/www/App.js</code> or <code>src/api/index.js</code> to reload UI or API.
+                this was deployed with the help of github action and was deployed on surge.
           </p>
           <p>
             <code>yarn deploy</code> to build containers and deploy them to production
