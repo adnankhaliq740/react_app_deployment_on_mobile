@@ -39,15 +39,7 @@ class App extends Component {
             </a>
           </p>
           <p>
-                this site was deployed on mobile
-          </p>
-          <hr />
-          <h2>Count: {this.state.count}</h2>
-          <p>
-            Call <code>/api/count/increment</code>
-            <button onClick={this.increment} className="App-button">
-              Go
-            </button>
+                This site was deployed on mobile
           </p>
         </header>
       </div>
