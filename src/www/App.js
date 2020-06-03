@@ -39,10 +39,7 @@ class App extends Component {
             </a>
           </p>
           <p>
-            Modify <code>src/www/App.js</code> or <code>src/api/index.js</code> to reload UI or API.
-          </p>
-          <p>
-            <code>yarn deploy</code>this site was
+                this site was deployed on mobile
           </p>
           <hr />
           <h2>Count: {this.state.count}</h2>
