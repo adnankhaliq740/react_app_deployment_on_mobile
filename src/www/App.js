@@ -42,14 +42,6 @@ class App extends Component {
                 this was deployed on mobile with the help of github action and was deployed on surge
           </p>
           <p>
-            <code>yarn deploy</code> to build containers and deploy them to production
-          </p>
-          <p>
-            Call <code>/api/count/increment</code>
-            <button onClick={this.increment} className="App-button">
-              Go
-            </button>
-          </p>
         </header>
       </div>
     )
