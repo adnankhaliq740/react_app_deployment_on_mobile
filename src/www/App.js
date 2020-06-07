@@ -39,7 +39,7 @@ class App extends Component {
             </a>
           </p>
           <p>
-            made the change from a code
+            React app deployed
           </p>
         </header>
       </div>
