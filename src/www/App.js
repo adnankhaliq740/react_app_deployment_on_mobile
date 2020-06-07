@@ -39,7 +39,7 @@ class App extends Component {
             </a>
           </p>
           <p>
-                This site was deployed on mobile
+            made the change from a code
           </p>
         </header>
       </div>
